@@ -127,4 +127,4 @@ class Database:
         return (await self.db.command("dbstats"))['dataSize']
 
 
-db = [mongodb+srv://Cluster:Cluster@cluster0.bmwsp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority]
+db = [mongodb+srv://NIE:NIE@cluster0.mpprg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority]
